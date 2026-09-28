@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+body{
+    margin: 50px;
+    padding: 50px;
+    border: double;
+    background-color: cadetblue;
+    opacity: 50%;
+}
+h2{
+    background-color: red;
+    color: black;
+}
+#date{
+    border-radius: 20px;
+    border-color: black;
+}
+p{
+    background-color: yellow;
+    color: black;
+    padding-left: 30px;
+}
+ol{
+    padding: 25px;
+    background-color: green;
+}
+.learn {
+    border: dotted;
+    border-color: blueviolet;
+}
+#important{
+    background-color: red;
+    border-bottom: solid;
+}
+.check {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
+.w3{
+    color:white;
+}
