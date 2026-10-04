@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+body{
+    color: white;
+    background-image: url('images/background\ .jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+    padding: 10px;
+}
+.homelist li,a {
+    color: white;
+}
+
+.navbar {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(154, 44, 197);
+    padding: 10px
+}
+.nav_link{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#christmas{ 
+    height: 400px;
+    width: 500px;
+}
+.picture {
+    align-items: center;
+}
+.imagepng{
+    width: 500px;
+    height: 400px;
+
+}
+#imagegif{
+    height: 500px;
+    width: 400px;
+}
