@@ -1,0 +1,33 @@
+form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    background-color: rgb(176, 199, 191);
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+
+}
+h1{
+    background-color: blanchedalmond;
+    border: 1px solid blue;
+    border-radius: 25%;
+}
+a{
+    background-color: yellow;
+    border: black solid 1px;
+    padding: 5px;
+    border-radius: 10px;;
+}
+a:hover{
+    background-color: rgb(185, 182, 188);
+}
+
+body{
+    background-color: rgb(160, 152, 248);
+}
+input{
+    width: auto;
+    height: 25px;
+}

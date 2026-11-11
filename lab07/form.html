@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Form for Introduction</h1>
+    <a href="lab07.html">Go Back to TABLE</a>
+    <form method="post">
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="First Name">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="lastname">
+
+        <label for="country">Country:</label> 
+        <select id="country">
+            <option>United States</option>
+            <option>canada</option>
+            <option>mexico</option>
+            <option>England</option>
+        </select>
+
+         <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="exampl@gmail.com">
+        <label for="password">password: </label>
+        <input type="password" id="password" placeholder="*********">
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth">
+        <label for="contact">Phone Number:</label>
+        <input type="tel" id="contact" placeholder="+1(111)1111111">
+        <label for="hobby"> Select your Interest:</label>
+            <label for="Interest"><input type="checkbox" >Health care</label>
+            <label for="Interest"><input type="checkbox" >Sports</label>
+            <label for="Interest"><input type="checkbox" >Technology</label>
+            <label for="Interest"><input type="checkbox" >Business</label>
+            <label for="Interest"><input type="checkbox">Engineering</label>
+            
+        <label for="check">How many hobby  you selected:</label>
+        <input type="number" id="quantity" min="0" max="5" value="0">
+
+        <label for="Gender"> Gender:</label>
+           <label><input type="radio" name="Gender">Male</label> 
+           <label> <input type="radio" name="Gender">Female</label>
+           <label><input type="radio" name="Gender">Others</label>
+        
+
+
+
+        <input type="reset">
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>

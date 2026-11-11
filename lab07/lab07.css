@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(116, 214, 241);
+    opacity: 75%;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+
+nav {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(154, 44, 197);
+    padding: 10px;
+    margin-bottom: 20px;;
+
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav ol li:hover{
+    padding: 10px;
+    background-color: green;
+}
+
+table {
+    width:100%;
+    background-color: rgb(118, 147, 242);
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+table tr {
+    border-bottom: 1px solid rgb(139, 245, 139);
+
+}
+
+table th {
+    border: 1px solid black;
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
+
+table td { 
+    border: 1px solid black;
+    padding: 10px;
+    text-align: start;
+    font-size: 16px;
+  
+}
+
+.tabledata tr:nth-of-type(even) {
+    background-color: red;
+
+}
+.tablefooter {
+    border-bottom: 2px solid green;
+    border-width: 5px;
+}
+.tablefooter td{
+    border: 1px solid green;
+}
+.tablefooter:hover{
+    background-color: yellow;
+
+}
+img {
+   width: 200px;
+   height: 200px;
+}
+@media (max-width:400px) {
+table{
+    width: 100%;
+}
+}
