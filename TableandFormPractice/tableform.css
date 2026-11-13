@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
+.table table{
+    padding: 20px;
+    border: 1px solid rgb(16, 141, 236);
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    background-color: beige;
+
+}
+.table tr:nth-of-type(odd){
+    background-color: rgb(242, 142, 12);
+}
+.table h2{
+    background-color: blueviolet;
+    padding: 5px;
+    width: 500px;
+}
+.table td:hover{
+    background-color: rgb(165, 226, 164);
+}
+.table th:active{
+    background-color: aqua;
+}
+
+.table table th, td{
+    border: 2px solid blue;
+}
+div table td{
+    border: 1px solid red;
+}
+.form p{
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
+.form{
+    background-color: rgb(200, 246, 200);
+    margin-top: 20px;;
+    border: 2px solid blue;
+    width: 500px;
+    padding: 10px;;
+
+}
+.form label{
+    display: grid;
+
+}
+
+#submit{
+    margin-left: 200px;;
+
+}
+#reset{
+    margin-top: 10px;;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_form</title>
+    <link rel="stylesheet" href="tableform.css">
+</head>
+<body>
+    <div class="table">
+        <table>
+            <h2>My Courser for Fall2026</h2>
+            <p>Roam mouse around table data its hover and tap on heading its active pseudoclass.</p>
+            <tr>
+                <th scope="col">Course Number</th>
+                <th scope="col">course Name</th>
+                <th scope="col">Instructor's Name</th>
+            </tr>
+            <tr>
+                <td>college composition II</td>
+                <td>93277</td>
+                <td>Rogers, Anna</td>
+            </tr>
+            <tr>
+                <td>Fundamentals of che</td>
+                <td>90689</td>
+                <td>Hands, Michael</td>
+            </tr>
+            <tr>
+                <td>Web Standards</td>
+                <td>91351</td>
+                <td>Noone, Veronica</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="form">
+        <form method="post">
+            <p>Please fill this Form</p>
+            <label for="fname" id="fullname" >Full Name: </label>
+            <input type="text" placeholder="FullName">
+            <label for="email" >Email: </label>
+            <input type="email" placeholder="Example@gmail.com">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="****************">
+            <label for="messages" >Leave Messages: </label>
+            <textarea name="messages" id="messages" rows="5" cols="30" maxlength="1600" placeholder="you can write upto 1600 words."></textarea>
+            <input type="date">
+            <label for="contact" >Contact number:</label>
+            <input type="tel" placeholder="+1 123 456 7890">
+            <label for="country">Select city:</label>
+            <select name="city" id="code">
+                <option value="idont know">Baltimore</option>
+                <option value="idont kw">Catonsville</option>
+                <option value="do iknow">Essex</option>
+            </select><br>
+            <input type="reset" id="reset"><br>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    
+</body>
+</html>
